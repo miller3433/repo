@@ -1,0 +1,124 @@
+/* GENERAL */
+body{
+	font-family:arial;
+	padding:0px;
+	margin:0px;
+	background-color:#13803C;
+}
+.container{
+	max-width:1000px;
+	width:96%;
+	display: block;
+	margin:0 auto;
+	padding:0% 2%;
+}
+h1{
+	color:#000;
+}
+
+/* HEADER */
+.header{
+	background-color:#13803C;
+	height:80px;
+	margin:0 20px;
+}
+.header img{
+	max-width:200px;
+	float:left;
+	display: inline-block;
+	width:20%;
+	height:auto;
+	margin-top:5px;
+}
+.header h1 {
+	font-family: 'Bevan';
+	float: left;
+	display: inline-block;
+	width:30%;
+	text-align: right;
+	padding-top: 12px;
+
+}
+.header .nav{
+	float: right;
+	width:50%;
+	text-align: right;
+	margin-top: 40px;
+}
+
+.header .nav ul{
+	display: inline-block;
+	list-style: none;
+	text-align: right;
+	margin-top:0px;
+}
+.header .nav ul li{
+	display: inline-block;
+	padding:10px;
+}
+.header .nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	text-align: right;
+	padding:9px;
+	transition:all 0.5s ease 0s;
+}
+.header .nav ul li a:hover{
+	border-bottom:3px solid #000;
+	color:#000;
+}
+
+@media only screen and (max-width: 450px) {
+	.header{
+		height:auto;
+	}
+	.header img{
+		display: block;
+		margin:0 auto;
+		float:none;
+		margin-top: 10px;
+	}
+	.header h1{
+		display: block;
+		margin:0 auto;
+		float:none;
+		margin-top: 10px;
+	}
+	.header .nav{
+		width: 100%;
+		text-align: center;
+	}
+
+	.header .nav ul{
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/* CONTENT */
+.content{
+	padding-top:70px;
+	background-color:#fff;
+	padding-bottom:20px;
+}
+.bodyimage img{
+	width: 100%;
+}
+.content .center, .menu, .about{
+text-align: center;
+}
+
+.content .center p{
+	background-color: #73A55E;
+	padding: 20px;
+}
+
+/* FOOTER */
+.footer{
+	background-color:#13803C;
+}
+.footer p{
+	color:#fff;
+	padding:10px 0px;
+	text-align: center;
+}
