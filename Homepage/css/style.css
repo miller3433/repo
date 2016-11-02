@@ -1,0 +1,166 @@
+*, body{
+	margin:0px;
+	padding:0px;
+	font-family: arial, sans-serif;
+}
+
+.wrapper{
+	max-width: 1000px;
+	display: block;
+	margin: 0 auto;
+	width 96%;
+	padding:0px 2%;
+}
+
+h1{
+	color: #fff
+}
+
+header{
+	background-color: #536FB5;
+	height: 75px;
+	box-shadow: 0px 7px 8px #999999;
+}
+
+header .logo {
+	float:left;
+	width: 13%;
+}
+
+header .logo img{
+	diplay: block;
+	margin:0 auto;
+	width: 100px;
+	padding-top: 5px;
+}
+
+header h1{
+	float: left;
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	padding-top: 35px;
+	font-size: 30px;
+}
+ul, ol{
+	margin-top: 25px;
+	margin-left: 30px;
+	list-style: none;
+}
+
+ul li, ol li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header .nav a:hover{
+	border-bottom: 5px solid #fff;
+	padding-bottom: 10px;
+}
+
+header ul{
+	float: right;
+	width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+	header{ 
+		height: auto; 
+	}
+
+	header .wrapper .logo{
+		display: block;
+		margin:0 auto;
+		float: none;
+		padding-top: 10px
+	}
+
+	header h1 {
+		width:100%;
+		text-align: center;
+		float: none;
+		margin:0 auto;
+	}
+
+		header .nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	header .nav ul{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+.search {
+display: block;
+width: 100%;
+}
+
+.search .searchbar input{
+	display:block;
+	margin: 250px auto;
+	height: 50px;
+	width: 75%;
+	font-size: 20px;
+	border:2px solid #536FB5;
+	border-radius: 4px;
+	box-shadow: 5px 5px 4px #999999;
+}
+
+.search button{
+	display: block;
+	margin: 0px auto;
+	height: 40px;
+	width: 90px;
+	font-size: 18px;
+	border:2px solid #536FB5;
+	border-radius: 4px;
+	background-color: #C0C4F9; 
+	box-shadow: 5px 5px 4px #999999;
+}
+
+.search button:hover{
+	background-color: #7C87FF;
+	box-shadow: 10px 7px 6px #999999;
+}
+
+.grid {
+	margin-top:400px;
+}
+.wf-container { 
+	margin: 0 auto; 
+clear:both;}
+
+.wf-container:before,
+.wf-container:after {
+  content: '';
+  display: table;
+}
+
+.wf-container:after { clear: both; }
+
+.wf-box { 
+	margin: 10px; }
+
+.wf-box img {
+  display: block;
+  width: 100%;
+}
+
+.wf-box .content {
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  padding: 5px 8px;
+}
+
+.wf-column { float: left; }
