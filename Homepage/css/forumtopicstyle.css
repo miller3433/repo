@@ -1,0 +1,123 @@
+*, body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Hind', sans-serif;
+}
+
+body{
+		background-color: #F2F2F2;
+}
+
+.wrapper{
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+	width 96%;
+	padding:0px 2%;
+}
+
+h1{
+	color: #99999;
+}
+
+h2{
+	color: #99999;
+	font-size: 24px;
+}
+
+h3{
+	color: #99999;
+	font-size: 21px;
+}
+
+h4{
+	color: #99999;
+	font-size: 18px;
+}
+
+h5{
+	color: #99999;
+}
+
+.title {
+	float: left;
+	width:45%;
+	padding-top: 30px;
+	padding-left: 5%;
+
+}
+
+.search {
+float: right;
+width: 50%;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.search .searchbar input{
+	float: left;
+	height: 50px;
+	width: 50%;
+	font-size: 20px;
+	border:2px solid #536FB5;
+	border-radius: 4px;
+	box-shadow: 5px 5px 4px #999999;
+}
+
+.search button{
+	float: right;
+	height: 50px;
+	width: 40%;
+	font-size: 18px;
+	border:2px solid #536FB5;
+	border-radius: 4px;
+	background-color: #C0C4F9; 
+	box-shadow: 5px 5px 4px #999999;
+}
+
+.search button:hover{
+	background-color: #7C87FF;
+	box-shadow: 10px 7px 6px #999999;
+}
+
+.topictable{
+	clear:both;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.topictable table{
+	width:100%;
+}
+
+.topictable table, th, td {
+	border: 1px solid #E5E5E5;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.topictable th, td {
+	padding:10px 20px;
+}
+
+
+.topictable a:link {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.topictable a:hover {
+text-decoration: underline;
+color: black;
+font-weight: bold;
+}
+
+.topictable a:visited {
+text-decoration: none;
+color: black;
+
+}
+
+.topictable td:nth-child(2), td:nth-child(3){
+	width: 30px;
+}

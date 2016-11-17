@@ -1,11 +1,15 @@
 *, body{
 	margin:0px;
 	padding:0px;
-	font-family: arial, sans-serif;
+	font-family: 'Hind', sans-serif;
+}
+
+body{
+		background-color: #F2F2F2;
 }
 
 .wrapper{
-	max-width: 1000px;
+	max-width: 1200px;
 	display: block;
 	margin: 0 auto;
 	width 96%;
@@ -16,90 +20,7 @@ h1{
 	color: #fff
 }
 
-header{
-	background-color: #536FB5;
-	height: 75px;
-	box-shadow: 0px 7px 8px #999999;
-}
 
-header .logo {
-	float:left;
-	width: 13%;
-}
-
-header .logo img{
-	diplay: block;
-	margin:0 auto;
-	width: 100px;
-	padding-top: 5px;
-}
-
-header h1{
-	float: left;
-	display: inline-block;
-	width: 15%;
-	text-align: right;
-	padding-top: 35px;
-	font-size: 30px;
-}
-ul, ol{
-	margin-top: 25px;
-	margin-left: 30px;
-	list-style: none;
-}
-
-ul li, ol li{
-	list-style: none;
-	display: inline-block;
-	padding: 8px 20px;
-}
-
-header a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-header .nav a:hover{
-	border-bottom: 5px solid #fff;
-	padding-bottom: 10px;
-}
-
-header ul{
-	float: right;
-	width: 40%;
-}
-
-@media screen and (max-width: 800px) {
-	header{ 
-		height: auto; 
-	}
-
-	header .wrapper .logo{
-		display: block;
-		margin:0 auto;
-		float: none;
-		padding-top: 10px
-	}
-
-	header h1 {
-		width:100%;
-		text-align: center;
-		float: none;
-		margin:0 auto;
-	}
-
-		header .nav {
-		width: 100%;
-		text-align: center;
-	}
-
-	header .nav ul{
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
-}
 
 .search {
 display: block;
@@ -108,9 +29,13 @@ width: 100%;
 
 .search .searchbar input{
 	display:block;
-	margin: 250px auto;
+	margin-top:250px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+
 	height: 50px;
-	width: 75%;
+	width: 85%;
 	font-size: 20px;
 	border:2px solid #536FB5;
 	border-radius: 4px;
@@ -134,8 +59,45 @@ width: 100%;
 	box-shadow: 10px 7px 6px #999999;
 }
 
+.topblock {
+	display: inline-block;
+	width: 85%;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.topblock select { 
+	width: 100%;
+	font-size: 18px;
+	border:2px solid #536FB5;
+	border-radius: 4px;
+	background-color: #ffffff; 
+	box-shadow: 5px 5px 4px #999999;
+
+}
+
+.topblock .filter1 {
+	float: left;
+	width:50px;
+	padding-right:15px;
+}
+.topblock .filter2 {
+	float: left;
+	width: 200px;
+	padding-right: 15px;
+}
+.topblock .filter3 {
+	float: left;
+	width:50px;
+}
+
 .grid {
-	margin-top:400px;
+	margin-top:200px;
+}
+.grid .games {
+	margin-top: 50px;
 }
 .wf-container { 
 	margin: 0 auto; 
@@ -150,7 +112,9 @@ clear:both;}
 .wf-container:after { clear: both; }
 
 .wf-box { 
-	margin: 10px; }
+	margin: 10px; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
 .wf-box img {
   display: block;
@@ -164,3 +128,21 @@ clear:both;}
 }
 
 .wf-column { float: left; }
+
+.wf-box a:link {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.wf-box a:hover {
+text-decoration: underline;
+color: black;
+font-weight: bold;
+}
+
+.wf-box a:visited {
+text-decoration: none;
+color: #555555;
+font-weight: bold;
+}

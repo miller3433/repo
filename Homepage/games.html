@@ -10,7 +10,7 @@
 			<link rel="stylesheet" href="css/navstyle.css">
 			<link rel="stylesheet" href="css/wf-style.css">
 			<meta name="viewport" content="width=device-width">
-			<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet"> 
 			<title>Board Game Geek</title>
 		</head>
 		<body>
@@ -24,8 +24,10 @@
 						</a>
 					<div class="nav">
 					<ul>
-						<li><div class="active"><a href="index.html">Home</a></div></li>
-						<li><a href="games.html">Games</a></li>
+						<li><a href="index.html">Home</a></li>
+						
+						<li><div class="active"><a href="games.html">Games</a></div></li>
+
 						<li><a href="forum.html">Forums</a></li>
 					</ul>
 						<div style="clear:both;"></div>
@@ -33,22 +35,68 @@
 				</div>
 			</header>
 			<div class="wrapper">
-				<div class="search">
-					<form>
-					<div class="searchbar">
-						<input type="search" name="gamesearch" placeholder="  Search BoardGameGeek"><br><br>
+				<div class="topblock">
+					<div class="filter1">
+						<select name="# of Players">
+						Num. of Players
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6+</option>
+						</select>
 						</div>
-						<button type="submit">Submit</button>
-					</form>
+					<div class="filter2">
+						<select name="Genre">
+						Genre
+							<option>Abstract Strategy</option>
+							<option>Action/Dexterity</option>
+							<option>Adventure</option>
+							<option>Card</option>
+							<option>Children</option>
+							<option>City Building</option>
+							<option>Dice</option>
+							<option>Economic</option>
+							<option>Exploration</option>
+							<option>Fantasy</option>
+							<option>Horror</option>
+							<option>Murder/Mystery</option>
+							<option>Party</option>
+							<option>Puzzle</option>
+							<option>Racing</option>
+							<option>Sci-Fi</option>
+							<option>War</option>
+						</select>
+						</div>
+					<div class="filter3">
+						<select name="# of Players">
+						Num. of Players
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6+</option>
+						</select>
+
+					</div>
 				</div>
 			</div>
-			<div class="wrapper">
-			<div class="grid">
+
+		<div class="wrapper">
+			<div class="gridgames">
 				<div class="wf-container">
-				  <div class="wf-box"> <img src="images/pl.png">
+				  <div class="wf-box">
+				  	<a href="games/legacy.html"> 
+				  		<img src="images/pl.png">
+				  		</a>
 				    <div class="content">
-				      <h3>Title 1</h3>
-				      <p>Content Here</p>
+				    <a href="games/legacy.html">
+				      <h3>Pandemic Legacy: Season 1</h3>
+				      </a>
+				      <p><b>Score:</b> 8.442<b>    Price:</b> $46.55</p>
+				      <p></p>
 				    </div>
 				  </div>
 				  <div class="wf-box"> <img src="images/ts.jpg">
@@ -139,10 +187,8 @@
 				    </div>
 				  </div>
 				</div>
-			</div>
-			</div>
-			</div>
-			</div>
+
+
 			</div>
 			<footer>
 				
