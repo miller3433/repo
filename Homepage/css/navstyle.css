@@ -1,7 +1,7 @@
 header{
 	background-color: #536FB5;
 	height: 75px;
-	box-shadow: 0px 7px 8px #999999;
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
 }
 
 header .logo {
@@ -40,6 +40,7 @@ header a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px;
+	transition: .25s;
 }
 
 header .nav a:hover{
